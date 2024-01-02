@@ -3,13 +3,6 @@ title: "About me"
 about:
   id: hero-heading
   template: jolla
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/hiddevandebeek
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/hidde-van-de-beek-083998171/
 ---
 
 ::: {#hero-heading}
@@ -27,13 +20,14 @@ MSc Methodology and Statistics for the Behavioural, Biomedical and Social Scienc
 **Utrecht University** \| the Netherlands\
 BSc Psychology \| Sept 2018 - June 2022
 
-## Experience
+## Teaching Experience
 
 **UMC Utrecht** \| Teaching Assistant in Statistics \| Sept 2023 - present
 
-**Utrecht University** \| Research Assistant \| Sept 2021 - September 2023
-
 **Utrecht University** \| Teaching Assistant in Statistics \| Sept 2021 - June 2023
 
+## Research Experience
+
+**Utrecht University** \| Research Assistant \| Sept 2021 - September 2023
 
 :::
