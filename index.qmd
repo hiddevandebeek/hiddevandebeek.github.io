@@ -1,7 +1,22 @@
 ---
-title: "Hiddevandebeek"
+title: "Hidde van de Beek"
+about:
+  id: hero-heading
+  template: jolla
+  image: hidde.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/hiddevandebeek
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hidde-van-de-beek-083998171/
+    - icon: envelope
+      text: Email
+      href: mailto:hiddevdbeek@icloud.com
 ---
 
-This is a Quarto website.
+::: {#hero-heading}
+MSc Methodology and Statistics student at Utrecht University. Interested in Biostatistics, Research design, and Open Science. Also a big fan of the R programming language and the `tidyverse` ecosystem. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::

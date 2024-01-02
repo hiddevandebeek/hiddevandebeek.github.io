@@ -1,9 +1,8 @@
 ---
-title: "Hidde van de Beek"
+title: "About me"
 about:
   id: hero-heading
-  template: trestles
-  image: hidde.jpg
+  template: jolla
   links:
     - icon: github
       text: Github
@@ -14,7 +13,11 @@ about:
 ---
 
 ::: {#hero-heading}
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+Hi, I'm Hidde! I'm a Master's student at Utrecht University, where I study Methodology and Statistics. I'm planning to graduate in June 2024 and I'm currently looking for a PhD position.
+
+Currently I'm writing my Thesis on the performance of Information Criteria and Internal validation techniques in a simulated setting. The project is based in [Julius Center for Health Sciences and Primary Care](https://juliuscentrum.umcutrecht.nl/en) at [University Medical Center Utrecht](https://www.umcutrecht.nl/en/) and supervised by [dr. Maarten van Smeden](https://www.umcutrecht.nl/en/research/researchers/van-smeden-maarten-m) and [dr. Anne de Hond](https://www.linkedin.com/in/anne-de-hond/?originalSubdomain=nl).
+
+In my free time I'm a rower at U.S.R. Triton. Here I train 10-12 times a week and compete in national and international competitions. My most beloved experience is reaching the semi-finals in the Temple eight of the [Henley Royal Regatta](https://www.hrr.co.uk/) in 2022.
 
 ## Education
 
