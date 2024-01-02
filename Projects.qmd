@@ -1,9 +1,0 @@
----
-title: Projects
----
-
-::: {#hero-heading}
-# Bayesian Statistics
-
-asdasda
-:::
