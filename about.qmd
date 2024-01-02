@@ -1,8 +1,9 @@
 ---
-title: "About me"
+image: henley.jpg
 about:
   id: hero-heading
-  template: jolla
+  template: trestles
+  
 ---
 
 ::: {#hero-heading}
@@ -11,4 +12,5 @@ Hi, I'm Hidde! I'm a Master's student at Utrecht University, where I study Metho
 Currently I'm writing my Thesis on the performance of Information Criteria and Internal validation techniques in a simulated setting. The project is based in Julius Center for Health Sciences and Primary Care supervised by [dr. Maarten van Smeden](https://www.umcutrecht.nl/en/research/researchers/van-smeden-maarten-m) and [dr. Anne de Hond](https://www.linkedin.com/in/anne-de-hond/?originalSubdomain=nl).
 
 In my free time I'm a rower at U.S.R. Triton. Here I train 10-12 times a week and compete in national and international competitions. My most beloved experience is reaching the semi-finals in the Temple eight of the [Henley Royal Regatta](https://www.hrr.co.uk/) in 2022.
+:::
 

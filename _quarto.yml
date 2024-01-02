@@ -5,10 +5,12 @@ website:
   title: "Hidde van de Beek"
   navbar:
     left:
-      - about.qmd
+      - href: about.qmd
+        text: ABOUT ME
       - href: CV.pdf
         text: CV
-      - Projects.qmd  
+      - href: Projects.qmd  
+        text: PROJECTS
 
 format:
   html:
