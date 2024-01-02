@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - about.qmd
-      - href: docs/CV.pdf
+      - href: CV.pdf
         text: CV
       - Projects.qmd  
 
