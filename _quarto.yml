@@ -9,7 +9,6 @@ website:
         text: Home
       - about.qmd
       - Projects.qmd
-      - CV.docx
 
 format:
   html:
