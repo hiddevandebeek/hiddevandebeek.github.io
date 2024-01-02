@@ -1,11 +1,9 @@
 ---
 title: Projects
-  id: hero-heading
-  template: jolla
 ---
 
 ::: {#hero-heading}
 # Bayesian Statistics
 
-
+asdasda
 :::
