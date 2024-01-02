@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hidde van de Beek",
+    "section": "",
+    "text": "MSc Methodology and Statistics student at Utrecht University. Interested in Biostatistics, Research design, and Open Science. Also a big fan of the R programming language and the tidyverse ecosystem.\n \n  \n   \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About me",
@@ -12,12 +19,5 @@
     "title": "Projects",
     "section": "",
     "text": "Bayesian Statistics"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hidde van de Beek",
-    "section": "",
-    "text": "MSc Methodology and Statistics student at Utrecht University. Interested in Biostatistics, Research design, and Open Science. Also a big fan of the R programming language and the tidyverse ecosystem.\n \n  \n   \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
   }
 ]
