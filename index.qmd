@@ -14,8 +14,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:hiddevdbeek@icloud.com
-    - text: CV
-      href: docs/CV.pdf
 ---
 
 ::: {#hero-heading}
