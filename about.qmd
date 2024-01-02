@@ -1,0 +1,36 @@
+---
+title: "Hidde van de Beek"
+about:
+  id: hero-heading
+  template: trestles
+  image: hidde.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/hiddevandebeek
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hidde-van-de-beek-083998171/
+---
+
+::: {#hero-heading}
+Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+
+## Education
+
+**Utrecht University** \| the Netherlands\
+MSc Methodology and Statistics for the Behavioural, Biomedical and Social Sciences \| Sept 2022 - present
+
+**Utrecht University** \| the Netherlands\
+BSc Psychology \| Sept 2018 - June 2022
+
+## Experience
+
+**UMC Utrecht** \| Teaching Assistant in Statistics \| Sept 2023 - present
+
+**Utrecht University** \| Research Assistant \| Sept 2021 - September 2023
+
+**Utrecht University** \| Teaching Assistant in Statistics \| Sept 2021 - June 2023
+
+
+:::
