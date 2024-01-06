@@ -3,7 +3,7 @@ title: "Hidde van de Beek"
 about:
   id: hero-heading
   template: jolla
-  image: hidde.jpg
+  image: images/hidde.jpg
   links:
     - icon: github
       text: Github
@@ -17,6 +17,5 @@ about:
 ---
 
 ::: {#hero-heading}
-MSc Methodology and Statistics student at Utrecht University. Interested in Biostatistics, Research design, and Open Science. Also a big fan of the R programming language and the `tidyverse` ecosystem. 
-
+MSc Methodology and Statistics student at Utrecht University. Interested in Biostatistics, Research design, and Open Science. Also a big fan of the R programming language and the `tidyverse` ecosystem.
 :::
