@@ -59,6 +59,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -127,10 +129,42 @@ ul.task-list li input[type="checkbox"] {
 </header><div id="hero-heading">
 <section id="bayesian-statistics" class="level1">
 <h1>Bayesian Statistics</h1>
+<p>In this project, the main goal was to develop a Gibbs sampler for a Bayesian linear regression model. By using two simulated data set the Gibbs sampler was tested and the results were compared. The Gibbs sampler was then applied to a real data set to identify the key factors that play a role in the university admittance process. Next to this Bayesian Model Average was used to identify the most important variables in the model. The project was rewarded a 10.0/10.0 grade.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Theorem</strong><br>
+<span class="math inline">\(Y_i = b_0 + b_1x_{1i} + b_2x_{2i} + b_3x_{3i} + e_i\)</span> with <span class="math inline">\(e_i\)</span> i.i.d. <span class="math inline">\(\sim N(0,1/\tau)\)</span> and priors<br>
+<span class="math inline">\(b_0 ... b_3 \sim N(0,1/\tau_b)\)</span><br>
+<span class="math inline">\(\tau \sim gamma(\alpha, \beta)\)</span><br>
+</p>
+<p><strong>which result in the conditional distributions</strong><br>
+<span class="math inline">\(f(b_0|b_1,b_2,b_3,\tau,Y_1,...,Y_n) \sim N(\frac{\tau}{n\tau + \tau_b}\sum_{i=1}^n(Y_i -(b_1x_{1i} + b_2x_{2i} + b_3x_{3i}), \frac{1}{n\tau + \tau_b})\)</span><br>
+<span class="math inline">\(f(b_1|b_0,b_2,b_3,\tau,Y_1,...,Y_n) \sim N(\frac{\tau\sum_{i=1}^n(Y_i-(b_0 + b_2x_{2i} + b_3x_{3i})x_{1i})}{\tau\sum_{i=1}^n(x_i^2+\tau)}, \frac{1}{\tau\sum_{i=1}^nx_{1i}^2 + \tau_b})\)</span><br>
+...<br>
+<span class="math inline">\(f(\tau|b_0,b_1,b_2,b_3,Y_1,...,Y_n) \sim gamma(\alpha+n/2,\beta+\frac{1}{2}\sum_{i=1}^n(Y_i -(b_0 + b_1x_{1i} + b_2x_{2i} + b_3x_{3i})^2))\)</span></p>
+</div>
+</div>
 </section>
 </div>  
 </div>
 
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="images/trace_plots.png" class="img-fluid"> Figure 1. MCMC sampler of related dataset</p>
+</div><div class="column" style="width:50%;">
+<p><img src="images/trace_plots-2.png" class="img-fluid"> Figure 2. MCMC sampler of unrelated dataset</p>
+</div><section id="section" class="level1">
+<h1></h1>
+</section>
+</div>
 
 
 
