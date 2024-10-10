@@ -13,9 +13,10 @@ about:
       href: https://www.linkedin.com/in/hidde-van-de-beek-083998171/
     - icon: envelope
       text: Email
-      href: mailto:hiddevdbeek@icloud.com
+      href: mailto:h.van.de.beek@lacdr.leidenuniv.nl
 ---
 
 ::: {#hero-heading}
-MSc Methodology and Statistics student at Utrecht University. Interested in Biostatistics, Research design, and Open Science. Also a big fan of the R programming language and the `tidyverse` ecosystem.
+PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR). MSc Methodology and Statistics graduate at Utrecht University. Interested in 
+Pharmacokinetics and Pharmacodynamics (PKPD) in `nlmixr2`, Research design, and Open Science. Also a big fan of the R programming language and the `tidyverse` ecosystem.
 :::
