@@ -7,7 +7,7 @@ about:
 ---
 
 ::: {#hero-heading}
-Hi, I'm Hidde! I'm a PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR) under [dr. Laura Zwep](https://www.linkedin.com/in/laura-zwep-572486122/) and [Prof. dr. Coen van Hasselt](https://www.linkedin.com/in/coenvanhasselt/). I graduated in June 2024 with a MSc in Methodology and Statistics at Utrecht University. 
+Hi, I'm Hidde! I'm a PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR) under supervision of [dr. Laura Zwep](https://www.linkedin.com/in/laura-zwep-572486122/) and [Prof. dr. Coen van Hasselt](https://www.linkedin.com/in/coenvanhasselt/). I graduated in June 2024 with a MSc in Methodology and Statistics at Utrecht University. 
 
 Currently I'm working on pharmacometric research in the field of pharmacokinetics and pharmacodynamics (PK/PD) in the [LACDR](https://www.universiteitleiden.nl/en/science/pharmacology/organisation/pharmacometrics). My research focusses on proper statistical methods for covariate model development and the usage of aggregate data in PKPD analysis. I'm also working on the development of a new R package for PKPD analysis in R, where I would like to contribute to the open science of [`nlmixr2`](https://nlmixr2.org/).
 
