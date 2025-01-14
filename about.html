@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,12 +34,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c75bcb89907db7808f0349b764a1a524.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-4a188299f75bc4ba8db7804bc472757b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,9 +124,10 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-entity">
     <img src="images/henley.jpg" class="about-image
   rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block"></header>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<p>Hi, I’m Hidde! I’m a PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR) under <a href="https://www.linkedin.com/in/laura-zwep-572486122/">dr. Laura Zwep</a> and <a href="https://www.linkedin.com/in/coenvanhasselt/">Prof.&nbsp;dr. Coen van Hasselt</a>. I graduated in June 2024 with a MSc in Methodology and Statistics at Utrecht University.</p>
+<p>Hi, I’m Hidde! I’m a PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR) under supervision of <a href="https://www.linkedin.com/in/laura-zwep-572486122/">dr. Laura Zwep</a> and <a href="https://www.linkedin.com/in/coenvanhasselt/">Prof.&nbsp;dr. Coen van Hasselt</a>. I graduated in June 2024 with a MSc in Methodology and Statistics at Utrecht University.</p>
 <p>Currently I’m working on pharmacometric research in the field of pharmacokinetics and pharmacodynamics (PK/PD) in the <a href="https://www.universiteitleiden.nl/en/science/pharmacology/organisation/pharmacometrics">LACDR</a>. My research focusses on proper statistical methods for covariate model development and the usage of aggregate data in PKPD analysis. I’m also working on the development of a new R package for PKPD analysis in R, where I would like to contribute to the open science of <a href="https://nlmixr2.org/"><code>nlmixr2</code></a>.</p>
 <p>My Masters Thesis was on the performance of Information Criteria and Internal validation techniques in a simulated setting. The project is based in Julius Center for Health Sciences and Primary Care supervised by <a href="https://www.umcutrecht.nl/en/research/researchers/van-smeden-maarten-m">dr. Maarten van Smeden</a> and <a href="https://www.linkedin.com/in/anne-de-hond/?originalSubdomain=nl">dr. Anne de Hond</a>.</p>
 <p>In my free time I like to go hiking in Scotland, Norway, the Lake District, or anywhere else where I can find some mountains. Here I go back into the wild and enjoy the beautiful nature. I enjoy the bare necessities of life and the simplicity of the outdoors. Next spring I will go bikepacking in Italy, where I will cycle south to north through the Apennines.</p>
@@ -358,8 +359,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -470,7 +469,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
