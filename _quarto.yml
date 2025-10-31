@@ -11,6 +11,8 @@ website:
         text: CV
       - href: Projects.qmd  
         text: PROJECTS
+      - href: admr/index.qmd
+        text: ADMR
 
 format:
   html:

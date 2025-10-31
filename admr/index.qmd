@@ -1,0 +1,11 @@
+---
+title: "admr"
+format: html
+---
+
+<script>
+window.location.href = "https://vanhasseltlab.github.io/admr/";
+</script>
+
+<p>If you are not redirected automatically, 
+<a href="https://vanhasseltlab.github.io/admr/">click here</a>.</p>
