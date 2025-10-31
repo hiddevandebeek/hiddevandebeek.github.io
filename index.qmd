@@ -17,6 +17,4 @@ about:
 ---
 
 ::: {#hero-heading}
-PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR). MSc Methodology and Statistics graduate at Utrecht University. Interested in 
-Pharmacokinetics and Pharmacodynamics (PKPD) in `nlmixr2`, Research design, and Open Science. Also a big fan of the R programming language and the `tidyverse` ecosystem.
-:::
+PhD candidate in Pharmacometrics and Statistics at Leiden Academic Centre for Drug Research (LACDR). MSc Methodology and Statistics graduate at Utrecht University. Interested in Pharmacokinetics and Pharmacodynamics (PKPD) in `nlmixr2`, Research design, and Open Science. Recently published the R package `admr` for aggregate data population PK modelling.

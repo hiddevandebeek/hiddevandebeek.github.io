@@ -5,7 +5,17 @@ about:
   template: jolla
 ---
 
+
 ::: {#hero-heading}
+# admr package
+
+Pharmacometric modelling is traditionally performed using individual level data. Recently a new method was developed to fit pharmacometric models to summary level – or aggregate – data. This methodology allows for jointly modelling different data sources, once transformed into aggregate data. As such, the method can be applied to a combination of individual data, pharmacometric models, and aggregate data. In this study we aimed to (1) implement this methodological framework into an accessible R package (admr) and (2) develop a novel algorithm with enhanced computational efficiency. The developed R-package allows calculating aggregate data from different data sources, jointly fitting one or multiple data sources and assessing model performance. The implementation of the newly developed algorithm improves computational efficiency by iteratively reweighting internal Monte Carlo predictions. Three simulation scenarios using different data generating models demonstrated an improvement of 3 to 100-fold speed-up when using the novel Iterative Reweighting Monte Carlo (IR-MC) algorithm, while maintaining the convergence properties of the original MC algorithm. These analyses demonstrated that estimation with the IR-MC algorithm is increasingly more efficient as model complexity rises as compared to the standard MC algorithm, indicating the utility for more complex pharmacometric models. In conclusion, the aggregate data modelling implementation in the admr R package allows for a fast and user-friendly application of the aggregate data modelling framework. 
+
+A preprint of the article can be found [here](https://www.biorxiv.org/content/10.1101/2025.10.28.685047v1). 
+The package can be found on [Github](https://github.com/vanhasseltlab/admr) 
+
+
+
 # Bayesian Statistics
 
 In this project for the course Bayesian Statistics by Prof. dr. Herbert Hoijtink, the main goal was to develop a Gibbs sampler for a Bayesian linear regression model. By using two simulated data set the Gibbs sampler was tested and the results were compared. The Gibbs sampler was then applied to a real data set to identify the key factors that play a role in the University admittance process, using a open source data set. We used non-informative conjugate priors, as specified in the info note underneath. Next to this Bayesian Model Averaging was used to identify the most important variables in the model. The project was rewarded a 10.0/10.0 grade. The project can be found [here](Bayes.pdf).
