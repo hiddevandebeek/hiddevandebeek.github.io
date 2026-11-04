@@ -51,3 +51,5 @@ rsconnect/
 /.quarto/
 .DS_Store
 /_site/
+
+**/*.quarto_ipynb

@@ -1,1 +1,16 @@
-/* css styles */
+:root { --accent: #1f6f8b; }
+body { line-height: 1.7; }
+h1, h2, h3 { letter-spacing: -0.01em; font-weight: 700; }
+.navbar { box-shadow: 0 1px 8px rgba(0,0,0,.12); }
+.navbar-brand, .nav-link { font-weight: 600; letter-spacing: .04em; }
+.nav-link.active, .nav-link:hover { color: var(--accent) !important; }
+a { color: var(--accent); text-underline-offset: 3px; }
+code { color: var(--accent); background: rgba(31,111,139,.1); border-radius: 4px; padding: 1px 5px; }
+img { border-radius: 10px; }
+.quarto-about-jolla .about-image, .quarto-about-trestles .about-image { box-shadow: 0 6px 20px rgba(0,0,0,.25); }
+.quarto-about-jolla .about-link { border-radius: 999px; padding: .3rem 1rem; }
+
+/* Projects: one card per project */
+.project { border: 1px solid rgba(128,128,128,.3); border-left: 5px solid var(--accent);
+  border-radius: 10px; padding: 1.2rem 1.6rem; margin: 1.6rem 0; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.project h1 { font-size: 1.6rem; margin-top: 0; }
