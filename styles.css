@@ -14,3 +14,9 @@ img { border-radius: 10px; }
 .project { border: 1px solid rgba(128,128,128,.3); border-left: 5px solid var(--accent);
   border-radius: 10px; padding: 1.2rem 1.6rem; margin: 1.6rem 0; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
 .project h1 { font-size: 1.6rem; margin-top: 0; }
+
+/* Hex-logo background rules live in hexbg.css (separate file = cache-safe). */
+
+/* Inline hex logos: scale via width, SVG keeps aspect ratio automatically */
+.hex-logo { width: clamp(90px, 12vmin, 160px); height: auto; border-radius: 0; }
+.hex-trio { width: min(72vw, 430px); height: auto; display: block; margin: 0 auto; border-radius: 0; }

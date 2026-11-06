@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hex logos — preview (real stickers)</title>
+<style>
+  :root { --accent: #1f6f8b; }
+  body { font-family: Helvetica, Arial, sans-serif; margin: 0; background: #fff; color: #212529; }
+  [data-bs-theme="dark"] body { background: #002b36; color: #eee8d5; }
+  header { padding: 1rem 2rem; box-shadow: 0 1px 8px rgba(0,0,0,.12); display: flex; gap: 1rem; align-items: center; }
+  header a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  main { padding: 2rem; max-width: 1100px; margin: 0 auto; }
+  h1, h2 { letter-spacing: -0.01em; }
+  .row { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-end; }
+  .card { text-align: center; }
+  .card img { display: block; }
+  .card figcaption { font-size: .8rem; opacity: .7; margin-top: .4rem; }
+  .hex-logo { width: clamp(90px, 12vmin, 170px); height: auto; }
+  .hex-trio { width: min(72vw, 430px); height: auto; }
+  .bgdemo { border: 1px solid rgba(128,128,128,.4); border-radius: 10px; overflow: hidden; margin: 1rem 0; }
+  .bgdemo .canvas { height: 260px; background-repeat: repeat; }
+  .bgdemo .label { padding: .4rem .8rem; font-size: .8rem; opacity: .75; border-top: 1px solid rgba(128,128,128,.3); }
+  .toggle { margin-left: auto; }
+  code { color: var(--accent); background: rgba(31,111,139,.1); border-radius: 4px; padding: 1px 5px; }
+</style>
+</head>
+<body>
+<header>
+  <a href="../../index.html">← back to site</a>
+  <span><strong>Hex logo preview — real stickers</strong></span>
+  <button class="toggle" onclick="const h=document.documentElement; h.dataset.bsTheme = h.dataset.bsTheme==='dark'?'light':'dark'; document.body.classList.toggle('quarto-dark', h.dataset.bsTheme==='dark'); document.body.classList.toggle('quarto-light', h.dataset.bsTheme!=='dark'); refresh();">toggle light/dark</button>
+</header>
+<main>
+  <h1>The real hex stickers</h1>
+  <p>nlmixr2 (org avatar), admixr2 (<code>man/figures/logo.png</code>), ferx (<code>ferx-hex-palette-c.svg</code> from ferx-nlme.org). All used as scalable background tiles on this site.</p>
+
+  <h2>Individual hexes</h2>
+  <div class="row">
+    <figure class="card"><img class="hex-logo" src="nlmixr2.png" alt="nlmixr2 hex"><figcaption>nlmixr2.png</figcaption></figure>
+    <figure class="card"><img class="hex-logo" src="admixr2.png" alt="admixr2 hex"><figcaption>admixr2.png</figcaption></figure>
+    <figure class="card"><img class="hex-logo" src="ferx.svg" alt="ferx hex"><figcaption>ferx.svg (vector)</figcaption></figure>
+  </div>
+
+  <h2>Trio</h2>
+  <img class="hex-trio" src="hex-trio.svg" alt="nlmixr2 + admixr2 + ferx trio">
+
+  <h2>Background on this site (color tiles) at different screen sizes</h2>
+  <p>Same CSS as the site: <code>background-size: clamp(420px, 48vmin, 760px)</code>, tile =
+     <code id="tileName">hex-bg-light.png</code>.</p>
+  <div class="bgdemo"><div class="canvas" data-w="1440"></div><div class="label">desktop 1440px → tile = 691px (hex ≈ 193px)</div></div>
+  <div class="bgdemo"><div class="canvas" data-w="768"></div><div class="label">tablet 768px → tile ≈ 420px clamped (hex ≈ 117px)</div></div>
+  <div class="bgdemo"><div class="canvas" data-w="390"></div><div class="label">phone 390px → tile = 420px clamped (hex ≈ 117px)</div></div>
+
+  <h2>Monochrome (silhouette) tile variant</h2>
+  <div class="bgdemo"><div class="canvas mono" data-w="1440"></div><div class="label">hex-bg-mono-*.png — swap the url in styles.css if you prefer a single-tone look</div></div>
+</main>
+<script>
+  function bgFor(w) { return Math.max(420, Math.min(760, 0.48 * w)) + "px"; }
+  function refresh() {
+    const dark = document.documentElement.dataset.bsTheme === 'dark' || document.body.classList.contains('quarto-dark');
+    const color = dark ? 'hex-bg-dark.png?v=4' : 'hex-bg-light.png?v=4';
+    const mono = dark ? 'hex-bg-mono-dark.png' : 'hex-bg-mono-light.png';
+    document.getElementById('tileName').textContent = color;
+    document.querySelectorAll('.bgdemo .canvas').forEach(el => {
+      el.style.backgroundImage = `url("${el.classList.contains('mono') ? mono : color}")`;
+      el.style.backgroundSize = bgFor(+el.dataset.w);
+    });
+  }
+  refresh();
+</script>
+</body>
+</html>

@@ -48,9 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b0bacdaee50ff9abb97ae013f25660d1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-9e3a2819827f30c94a653a87b3b60b87.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-b0bacdaee50ff9abb97ae013f25660d1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8d3ad9c781c51ccd60b292c95058b2c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-99fcafb7484b857d9d5f1287cca1becf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-8d3ad9c781c51ccd60b292c95058b2c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,6 +110,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="hexbg.css">
 </head>
 
 <body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
@@ -328,7 +329,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#exact-standard-errors-for-focefocei" id="toc-exact-standard-errors-for-focefocei" class="nav-link active" data-scroll-target="#exact-standard-errors-for-focefocei">Exact standard errors for FOCE/FOCEI</a></li>
+  <li><a href="#exact-standard-errors-for-the-laplacian-population-likelihood-family" id="toc-exact-standard-errors-for-the-laplacian-population-likelihood-family" class="nav-link active" data-scroll-target="#exact-standard-errors-for-the-laplacian-population-likelihood-family">Exact standard errors for the Laplacian population likelihood family</a></li>
   <li><a href="#admixr2-package" id="toc-admixr2-package" class="nav-link" data-scroll-target="#admixr2-package">admixr2 package</a></li>
   <li><a href="#open-source-development-nlmixr2-and-ferx" id="toc-open-source-development-nlmixr2-and-ferx" class="nav-link" data-scroll-target="#open-source-development-nlmixr2-and-ferx">Open-source development: nlmixr2 and ferx</a></li>
   <li><a href="#bayesian-statistics" id="toc-bayesian-statistics" class="nav-link" data-scroll-target="#bayesian-statistics">Bayesian Statistics</a></li>
@@ -358,9 +359,9 @@ window.Quarto = {
 </header>
 
 
-<section id="exact-standard-errors-for-focefocei" class="level1 project">
-<h1>Exact standard errors for FOCE/FOCEI</h1>
-<p>Together with Mélissa Beldjenna, Matthew Fidler, Laura Zwep and Coen van Hasselt, I derived closed-form third-order sensitivity equations for the FOCE and FOCEI population likelihood. This gives the exact observed information, and therefore exact standard errors, without step-size dependent finite differencing. The method is implemented in <code>nlmixr2</code>. Read the preprint on <a href="https://www.biorxiv.org/content/10.64898/2026.07.09.737434v1">bioRxiv</a>: <em>From exact gradients to exact standard errors: third-order sensitivity equations for the FOCE and FOCEI population likelihood</em>.</p>
+<section id="exact-standard-errors-for-the-laplacian-population-likelihood-family" class="level1 project">
+<h1>Exact standard errors for the Laplacian population likelihood family</h1>
+<p>Together with Massinissa Beldjenna, Joachim Almquist, Matthew Fidler, Laura Zwep and Coen van Hasselt, I derived closed-form sensitivity equations for the observed information of the Laplacian population likelihood family: third-order sensitivities for FOCE/FOCEI and fourth-order sensitivities for the full Laplacian method. This gives the exact observed information, and therefore exact standard errors, without step-size dependent finite differencing and without empirical Bayes reoptimization. The method is implemented for FOCE/FOCEI in <code>nlmixr2</code>. Read the preprint on <a href="https://www.biorxiv.org/content/10.64898/2026.07.09.737434v1">bioRxiv</a>: <em>From exact gradients to exact standard errors: third- and fourth-order sensitivities for the Laplacian population likelihood family</em>.</p>
 </section>
 <section id="admixr2-package" class="level1 project">
 <h1>admixr2 package</h1>
