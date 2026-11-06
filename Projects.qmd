@@ -3,9 +3,9 @@ title: "Projects"
 ---
 
 ::: {.project}
-# Exact standard errors for FOCE/FOCEI
+# Exact standard errors for the Laplacian population likelihood family
 
-Together with Mélissa Beldjenna, Matthew Fidler, Laura Zwep and Coen van Hasselt, I derived closed-form third-order sensitivity equations for the FOCE and FOCEI population likelihood. This gives the exact observed information, and therefore exact standard errors, without step-size dependent finite differencing. The method is implemented in `nlmixr2`. Read the preprint on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.07.09.737434v1): *From exact gradients to exact standard errors: third-order sensitivity equations for the FOCE and FOCEI population likelihood*.
+Together with Massinissa Beldjenna, Joachim Almquist, Matthew Fidler, Laura Zwep and Coen van Hasselt, I derived closed-form sensitivity equations for the observed information of the Laplacian population likelihood family: third-order sensitivities for FOCE/FOCEI and fourth-order sensitivities for the full Laplacian method. This gives the exact observed information, and therefore exact standard errors, without step-size dependent finite differencing and without empirical Bayes reoptimization. The method is implemented for FOCE/FOCEI in `nlmixr2`. Read the preprint on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.07.09.737434v1): *From exact gradients to exact standard errors: third- and fourth-order sensitivities for the Laplacian population likelihood family*.
 :::
 
 ::: {.project}

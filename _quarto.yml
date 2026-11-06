@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - images/hex/
 
 website:
   title: "Hidde van de Beek"
@@ -17,7 +19,9 @@ format:
     theme: 
       light: cosmo
       dark: solar
-    css: styles.css
+    css:
+      - styles.css
+      - hexbg.css
     toc: true
 
 

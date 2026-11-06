@@ -1,0 +1,30 @@
+/* Hex-logo background — kept in a separate file so it can't be masked by a
+   cached styles.css. Pre-rendered seamless PNG tiles (1x + 2x via image-set),
+   sized with clamp()+vmin so they scale with the viewport on any screen. */
+body {
+  background-image: url("images/hex/hex-bg-light.png?v=4");
+  background-image: image-set(url("images/hex/hex-bg-light.png?v=4") 1x, url("images/hex/hex-bg-light@2x.png?v=4") 2x);
+  background-repeat: repeat;
+  background-size: clamp(420px, 48vmin, 760px);
+  background-attachment: fixed;
+}
+[data-bs-theme="dark"] body,
+body.quarto-dark {
+  background-image: url("images/hex/hex-bg-dark.png?v=4");
+  background-image: image-set(url("images/hex/hex-bg-dark.png?v=4") 1x, url("images/hex/hex-bg-dark@2x.png?v=4") 2x);
+}
+
+/* Solid panel under all page text so it stays readable over the hex background */
+#quarto-document-content {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+}
+[data-bs-theme="dark"] #quarto-document-content,
+body.quarto-dark #quarto-document-content {
+  background: #073642;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+}
